@@ -9,23 +9,27 @@
 </head>
 
 <body>
-    <div class="picture-frame">
-        <div class="slides">
-            <img src="./assets/images/image1.jpg" alt="image1" data-image>
-            <img src="./assets/images/image2.jpg" alt="image1" data-image>
-            <img src="./assets/images/image3.jpg" alt="image1" data-image>
-            <img src="./assets/images/image4.jpg" alt="image1" data-image>
-            <img src="./assets/images/image5.jpg" alt="image1" data-image>
+    <div class="slider-wrapper">
+        <div class="slider">
+            <img id="slide-1" src="./assets/images/slide1.jpg" alt="luxury-car-1">
+            <img id="slide-2" src="./assets/images/slide2.jpg" alt="luxury-car-2">
+            <img id="slide-3" src="./assets/images/slide3.jpg" alt="luxury-car-3">
+            <img id="slide-4" src="./assets/images/slide4.jpg" alt="luxury-car-4">
+            <img id="slide-5" src="./assets/images/slide5.jpg" alt="luxury-car-5">
+            <img id="slide-6" src="./assets/images/slide6.jpg" alt="luxury-car-6">
         </div>
 
-        <span class="material-icons-outlined backBtn">
-            arrow_back_ios
-        </span>
-
-        <span class="material-icons-outlined forwardBtn">
-            arrow_forward_ios
-        </span>
+        <div class="dots">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+            <a href="#slide-6"></a>
+        </div>
     </div>
+
+    <small class="caption">Use the arrow keys or dots to navigate</small>
 </body>
 
 </html>
